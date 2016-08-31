@@ -59,9 +59,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Jirka\EvenFibonacciNumbers.cs" />
+    <Compile Include="Jirka\MultipleOf3And5.cs" />
     <Compile Include="Tom\EvenFibonacciNumbers.cs" />
     <Compile Include="IScalarProblemSolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tom\MultipleOf3And5.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
