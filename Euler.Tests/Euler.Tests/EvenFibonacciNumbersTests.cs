@@ -14,6 +14,9 @@ namespace Euler.Tests
         }
 
 
+        [TestCase(2, 2)]
+        [TestCase(3, 2)]
+        [TestCase(5, 2)]
         [TestCase(10, 10)]
         [TestCase(1000, 798)]
         [TestCase(4000000, 4613732)]
@@ -24,6 +27,9 @@ namespace Euler.Tests
         }
 
 
+        [TestCase(2, 2)]
+        [TestCase(3, 2)]
+        [TestCase(5, 2)]
         [TestCase(10, 10)]
         [TestCase(1000, 798)]
         [TestCase(4000000, 4613732)]
