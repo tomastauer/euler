@@ -42,7 +42,7 @@ namespace Euler.Tests
         }
         
 
-        protected void PerformanceBaseTom(int input, int numberOfIterations)
+        protected void PerformanceBaseTom(long input, int numberOfIterations)
         {
             for (int i = 0; i < mNumberOfRepetition; i++)
             {
@@ -51,7 +51,7 @@ namespace Euler.Tests
         }
 
 
-        protected void PerformanceBaseJirka(int input, int numberOfIterations)
+        protected void PerformanceBaseJirka(long input, int numberOfIterations)
         {
             for (int i = 0; i < mNumberOfRepetition; i++)
             {
@@ -60,7 +60,7 @@ namespace Euler.Tests
         }
 
 
-        private static void CheckPerformance(IScalarProblemSolver solver, int input, int numberOfIterations)
+        private static void CheckPerformance(IScalarProblemSolver solver, long input, int numberOfIterations)
         {
             var stopwatch = new Stopwatch();
             stopwatch.Start();
