@@ -2,6 +2,6 @@
 {
     public interface IScalarProblemSolver
     {
-        long SolveProblem(int input);
+        long SolveProblem(long input);
     }
 }

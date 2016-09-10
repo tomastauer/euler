@@ -1,6 +1,6 @@
-﻿namespace Euler.Solver.Jirka
+﻿namespace Euler.Solver.Tom
 {
-    public class MultipleOf3And5 : IScalarProblemSolver
+    public class PrimeFactors : IScalarProblemSolver
     {
         public long SolveProblem(long input)
         {

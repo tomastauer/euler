@@ -2,7 +2,7 @@
 {
     public class EvenFibonacciNumbers : IScalarProblemSolver
     {
-        public long SolveProblem(int input)
+        public long SolveProblem(long input)
         {
             return UseBrain2(input);
         }
@@ -14,7 +14,7 @@
         /// -, |, -, -, |,  -,  -,  |
         /// When we compute always 2 members in one loop we can see only 1st and 3rd loop contains odd numbers.
         /// </summary>
-        public long UseBrain(int maxMemberValue)
+        public long UseBrain(long maxMemberValue)
         {
             uint a = 1, b = 2;
 
@@ -56,7 +56,7 @@
         /// When we compute always 2 members in one loop we can see only 1st and 3rd loop contains odd numbers.
         /// This method gets rid of the temp variable.
         /// </summary>
-        public long UseBrain2(int maxMemberValue)
+        public long UseBrain2(long maxMemberValue)
         {
             int a = 1, b = 2;
             long result = 0;

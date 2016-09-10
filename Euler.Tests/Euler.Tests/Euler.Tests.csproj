@@ -70,6 +70,7 @@
   <ItemGroup>
     <Compile Include="EvenFibonacciNumbersTests.cs" />
     <Compile Include="MultipleOf3And5Tests.cs" />
+    <Compile Include="PrimeFactorsTests.cs" />
     <Compile Include="ScalarProblemTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

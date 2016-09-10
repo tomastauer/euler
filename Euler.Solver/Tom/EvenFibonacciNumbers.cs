@@ -2,7 +2,7 @@
 {
     public class EvenFibonacciNumbers : IScalarProblemSolver
     {
-        public long SolveProblem(int input)
+        public long SolveProblem(long input)
         {
             int previous = 0;
             int actual = 2;
