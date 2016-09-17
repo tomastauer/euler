@@ -22,19 +22,19 @@ namespace Euler.Tests
         }
 
 
-        protected void CorrectnessBaseTom(long input, int expectedResult)
+        protected void CorrectnessBaseTom(long input, long expectedResult)
         {
             CheckCorrectness(mTomsSolver, input, expectedResult);
         }
 
 
-        protected void CorrectnessBaseJirka(long input, int expectedResult)
+        protected void CorrectnessBaseJirka(long input, long expectedResult)
         {
             CheckCorrectness(mJirkasSolver, input, expectedResult);
         }
 
 
-        private void CheckCorrectness(IScalarProblemSolver solver, long input, int expectedResult)
+        private void CheckCorrectness(IScalarProblemSolver solver, long input, long expectedResult)
         {
             var result = solver.SolveProblem(input);
 
