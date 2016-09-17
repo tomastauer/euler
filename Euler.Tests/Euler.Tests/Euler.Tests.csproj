@@ -74,6 +74,7 @@
     <Compile Include="PrimeFactorsTests.cs" />
     <Compile Include="ScalarProblemTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumSquareDifferenceTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
