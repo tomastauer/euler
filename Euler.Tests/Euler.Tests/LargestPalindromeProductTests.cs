@@ -3,7 +3,7 @@
 namespace Euler.Tests
 {
     [TestFixture]
-    class LargestPalindromeProductTests : ScalarProblemTest
+    class LargestPalindromeProductTests : LongInputProblemTest
     {
         public LargestPalindromeProductTests() : base(
                 tomsSolver: new Solver.Tom.LargestPalindromeProduct(), 

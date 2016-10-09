@@ -3,7 +3,7 @@
 namespace Euler.Tests
 {
     [TestFixture]
-    class EvenFibonacciNumbersTests : ScalarProblemTest
+    class EvenFibonacciNumbersTests : LongInputProblemTest
     {
         public EvenFibonacciNumbersTests() : 
             base(

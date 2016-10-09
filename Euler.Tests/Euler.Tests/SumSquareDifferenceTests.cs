@@ -9,7 +9,7 @@ using NUnit.Framework;
 namespace Euler.Tests
 {
     [TestFixture]
-    class SumSquareDifferenceTests : ScalarProblemTest
+    class SumSquareDifferenceTests : LongInputProblemTest
     {
         public SumSquareDifferenceTests() : base(
                 tomsSolver: new Solver.Tom.SumSquareDifference(), 

@@ -52,15 +52,18 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IStringArrayInputProblemSolver.cs" />
     <Compile Include="Jirka\EvenFibonacciNumbers.cs" />
-    <Compile Include="IScalarProblemSolver.cs" />
+    <Compile Include="ILongInputProblemSolver.cs" />
     <Compile Include="Jirka\LargestPalindromeProduct.cs" />
+    <Compile Include="Jirka\LargeSum.cs" />
     <Compile Include="Jirka\MultipleOf3And5.cs" />
     <Compile Include="Jirka\PrimeFactors.cs" />
     <Compile Include="Jirka\SumSquareDifference.cs" />
     <Compile Include="Tom\EvenFibonacciNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tom\LargestPalindromeProduct.cs" />
+    <Compile Include="Tom\LargeSum.cs" />
     <Compile Include="Tom\MultipleOf3And5.cs" />
     <Compile Include="Tom\PrimeFactors.cs" />
     <Compile Include="Tom\SumSquareDifference.cs" />

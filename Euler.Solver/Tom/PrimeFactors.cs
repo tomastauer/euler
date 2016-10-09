@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Euler.Solver.Tom
 {
-    public class PrimeFactors : IScalarProblemSolver
+    public class PrimeFactors : ILongInputProblemSolver
     {
         private bool[] mPrimes;
         private int l = 6900;

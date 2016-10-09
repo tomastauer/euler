@@ -2,7 +2,7 @@
 
 namespace Euler.Solver.Tom
 {
-    public class LargestPalindromeProduct : IScalarProblemSolver
+    public class LargestPalindromeProduct : ILongInputProblemSolver
     {
         public long SolveProblem(long input)
         {

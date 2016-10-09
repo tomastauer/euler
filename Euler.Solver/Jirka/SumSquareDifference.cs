@@ -1,6 +1,6 @@
 ﻿namespace Euler.Solver.Jirka
 {
-    public class SumSquareDifference : IScalarProblemSolver
+    public class SumSquareDifference : ILongInputProblemSolver
     {
         public long SolveProblem(long input)
         {
