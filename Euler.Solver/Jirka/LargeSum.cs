@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Numerics;
 
 namespace Euler.Solver.Jirka
 {
@@ -10,7 +7,14 @@ namespace Euler.Solver.Jirka
     {
         public long SolveProblem(string[] input)
         {
-            throw new NotImplementedException();
+            BigInteger result = 0;
+            foreach (string number in input)
+            {
+                result += BigInteger.Parse(number);
+            }
+
+            string resultString = result.ToString();
+            return Convert.ToInt64(resultString.Length >= 10 ? resultString.Substring(0, 10) : resultString);
         }
     }
 }

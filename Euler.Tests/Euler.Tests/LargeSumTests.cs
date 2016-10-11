@@ -37,7 +37,7 @@ namespace Euler.Tests
         public void CorrectnessJirka(string file, long expectedResult)
         {
             var input = File.ReadAllLines(Path.Combine(mAssetsPath, file));
-            CorrectnessBaseTom(input, expectedResult);
+            CorrectnessBaseJirka(input, expectedResult);
         }
 
 
@@ -54,7 +54,7 @@ namespace Euler.Tests
         public void PerformanceJirka()
         {
             var input = File.ReadAllLines(Path.Combine(mAssetsPath, "Euler.txt"));
-            PerformanceBaseJirka(input, 1);
+            PerformanceBaseJirka(input, 1000);
         }
     }
 }
