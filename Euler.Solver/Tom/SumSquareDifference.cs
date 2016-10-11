@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace Euler.Solver.Tom
 {
-    public class SumSquareDifference : IScalarProblemSolver
+    public class SumSquareDifference : ILongInputProblemSolver
     {
         public long SolveProblem(long input)
         {

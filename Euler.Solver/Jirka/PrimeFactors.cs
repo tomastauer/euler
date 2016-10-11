@@ -2,7 +2,7 @@
 
 namespace Euler.Solver.Jirka
 {
-    public class PrimeFactors : IScalarProblemSolver
+    public class PrimeFactors : ILongInputProblemSolver
     {
         public long SolveProblem(long input)
         {

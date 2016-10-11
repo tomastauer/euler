@@ -3,7 +3,7 @@
 namespace Euler.Tests
 {
     [TestFixture]
-    class MultipleOf3And5Tests : ScalarProblemTest
+    class MultipleOf3And5Tests : LongInputProblemTest
     {
         public MultipleOf3And5Tests() : 
             base(

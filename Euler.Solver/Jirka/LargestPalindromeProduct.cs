@@ -2,7 +2,7 @@
 
 namespace Euler.Solver.Jirka
 {
-    public class LargestPalindromeProduct : IScalarProblemSolver
+    public class LargestPalindromeProduct : ILongInputProblemSolver
     {
         private long mInput;
         private int[] mPalindrom;

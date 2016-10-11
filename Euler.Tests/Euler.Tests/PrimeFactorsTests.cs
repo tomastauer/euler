@@ -3,7 +3,7 @@
 namespace Euler.Tests
 {
     [TestFixture]
-    class PrimeFactorsTests : ScalarProblemTest
+    class PrimeFactorsTests : LongInputProblemTest
     {
         public PrimeFactorsTests() : base(
                 tomsSolver: new Solver.Tom.PrimeFactors(),

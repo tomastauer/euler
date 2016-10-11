@@ -7,15 +7,14 @@ using NUnit.Framework;
 
 namespace Euler.Tests
 {
-    [TestFixture]
-    public class ScalarProblemTest
+    public class LongInputProblemTest
     {
-        private readonly IScalarProblemSolver mTomsSolver;
-        private readonly IScalarProblemSolver mJirkasSolver;
+        private readonly ILongInputProblemSolver mTomsSolver;
+        private readonly ILongInputProblemSolver mJirkasSolver;
         private const int mNumberOfRepetition = 10;
 
 
-        public ScalarProblemTest(IScalarProblemSolver tomsSolver, IScalarProblemSolver jirkasSolver)
+        public LongInputProblemTest(ILongInputProblemSolver tomsSolver, ILongInputProblemSolver jirkasSolver)
         {
             mTomsSolver = tomsSolver;
             mJirkasSolver = jirkasSolver;
@@ -34,7 +33,7 @@ namespace Euler.Tests
         }
 
 
-        private void CheckCorrectness(IScalarProblemSolver solver, long input, long expectedResult)
+        private void CheckCorrectness(ILongInputProblemSolver solver, long input, long expectedResult)
         {
             var result = solver.SolveProblem(input);
 
@@ -60,7 +59,7 @@ namespace Euler.Tests
         }
 
 
-        private static void CheckPerformance(IScalarProblemSolver solver, long input, int numberOfIterations)
+        private static void CheckPerformance(ILongInputProblemSolver solver, long input, int numberOfIterations)
         {
             var stopwatch = new Stopwatch();
             stopwatch.Start();

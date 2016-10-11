@@ -1,6 +1,6 @@
 ﻿namespace Euler.Solver.Tom
 {
-    public class EvenFibonacciNumbers : IScalarProblemSolver
+    public class EvenFibonacciNumbers : ILongInputProblemSolver
     {
         public long SolveProblem(long input)
         {
