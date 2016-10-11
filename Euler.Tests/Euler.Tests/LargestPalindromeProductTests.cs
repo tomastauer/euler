@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Euler.Solver.Jirka;
+using NUnit.Framework;
 
 namespace Euler.Tests
 {
@@ -40,14 +41,31 @@ namespace Euler.Tests
         [Test]
         public void PerformanceTom()
         {
-            PerformanceBaseTom(3, 1);
+            PerformanceBaseTom(3, 10000);
         }
 
 
         [Test]
         public void PerformanceJirka()
         {
-            PerformanceBaseJirka(3, 1);
+            PerformanceBaseJirka(3, 10000);
         }
+
+
+        #region Jirka Tests
+
+        [TestCase(4, true)]
+        [TestCase(9, true)]
+        [TestCase(10, false)]
+        [TestCase(33, true)]
+        [TestCase(110, false)]
+        [TestCase(906609, true)]
+        [TestCase(9966006699, true)]
+        public void IsPalindrom_ReturnCorrect(long number, bool result)
+        {
+            Assert.That(new LargestPalindromeProduct().IsPalindrom(number), Is.EqualTo(result));
+        }
+
+        #endregion
     }
 }

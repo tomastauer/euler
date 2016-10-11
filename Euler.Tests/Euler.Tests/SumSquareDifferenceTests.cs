@@ -48,14 +48,14 @@ namespace Euler.Tests
         [Test]
         public void PerformanceTom()
         {
-            PerformanceBaseTom(100, 1000000);
+            PerformanceBaseTom(100, 10000000);
         }
 
 
         [Test]
         public void PerformanceJirka()
         {
-            PerformanceBaseJirka(3, 1);
+            PerformanceBaseJirka(100, 10000000);
         }
     }
 }
