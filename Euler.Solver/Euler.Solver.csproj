@@ -60,6 +60,7 @@
     <Compile Include="Jirka\LargeSum.cs" />
     <Compile Include="Jirka\MultipleOf3And5.cs" />
     <Compile Include="Jirka\PrimeFactors.cs" />
+    <Compile Include="Jirka\SummationOfPrimes.cs" />
     <Compile Include="Jirka\SumSquareDifference.cs" />
     <Compile Include="Tom\EvenFibonacciNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Tom\LargeSum.cs" />
     <Compile Include="Tom\MultipleOf3And5.cs" />
     <Compile Include="Tom\PrimeFactors.cs" />
+    <Compile Include="Tom\SummationOfPrimes.cs" />
     <Compile Include="Tom\SumSquareDifference.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
